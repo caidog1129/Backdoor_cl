@@ -2,6 +2,10 @@
 
 ECAI-24 Paper: [Learning Backdoors for mixed integer linear programs with contrastive learning](https://arxiv.org/pdf/2401.10467)
 
+## Datasets:
+
+Distributional-MIPLIB: https://sites.google.com/usc.edu/distributional-miplib/home
+
 ## Procedure
 1. Use generator to generate 300 instances, 200 for training, 100 for testing, store the instance dir in train.txt, test.txt. Each instance is a dir with instance file inside the dir
 2. Collect backdoor using backdoor_search/backdoor_search.py and evaluate backdoor using backdoor_search/backdoor_evaluate.py instance_wise(parallel)
